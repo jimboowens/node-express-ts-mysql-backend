@@ -1,0 +1,43 @@
+{
+  "name": "frontierview-backend",
+  "version": "1.0.0",
+  "description": "basic npm server",
+  "main": "./src/index.ts",
+  "scripts": {
+    "start": "npm ci && nodemon ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "root",
+    "npm",
+    "server",
+    "jim",
+    "owens",
+    "basic",
+    "template"
+  ],
+  "author": "Jim Owens",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimboowens/root-npm-server/issues"
+  },
+  "homepage": "https://github.com/jimboowens/root-npm-server#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "csv-parse": "^5.0.4",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.21",
+    "mysql": "^2.18.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/lodash": "^4.14.178",
+    "@types/mysql": "^2.15.20",
+    "@types/node": "^17.0.10"
+  }
+}
